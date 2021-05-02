@@ -1,0 +1,14 @@
+
+text1 = analysedText("Lorem ipsum dolor! diam amet, consetetur Lorem magna. sed diam nonumy eirmod tempor. diam et labore? et diam magna. et diam amet.")
+
+print("text1_fmtText: ", text1.fmtText)
+
+dictionary1 = text1.freqAll()
+print("text1_freqAll", dictionary1)
+
+freq1 = text1.freqOf('ipsum')
+print('text1_freqOf: ', freq1)
+
+for k in dictionary1.keys():
+  print( k, ': ', text1.freqOf(k) )
+  
