@@ -3,13 +3,13 @@ Exercise of Coursera - Creating a class to analyze a text (Courera exerciese)
 
 
 
-Tasks: Create a class to achieve the below requests. 
+Tasks: Create a class to achieve the below functions.
 
 If a text is given - 
 
 First, make it:
   a. lower case,
-  b. free of punctuation (including [ , . ! ? ] only);
+  b. free of punctuation (including [ , . ! ? ]);
 
 Second, create a dictionary that contains every unique word in the formatted text and the frequency of occurrence of each word;
 
