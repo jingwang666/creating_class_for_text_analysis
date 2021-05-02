@@ -1,39 +1,31 @@
 class analysedText(object):
     
     def __init__ (self, text):
-        self.text = text.lower()
-        for punc in ['.', '!', ',', '?']:
-            self.text = self.text.replace(punc, '')
-        self.fmtText = self.text
-        self.list_words = self.fmtText.split()
-    
-    def freqAll(self):        
-        dic = {}
+        text = text.lower()
         
-#         list_words = self.fmtText.split()
-#         for word in set(list_words):
-#             dic[word] = list_words.count(word)
-
-        for word in set(self.list_words):
-            dic[word] = self.list_words.count(word)
+        for punc in ['.', '!', ',', '?']:
+            text = text.replace(punc, '')
+        
+        self.fmtText = text
+    
+    
+    
+    def freqAll(self):              
+        list_words = self.fmtText.split()
+        
+        dic = {}
+        for word in set(list_words):
+            dic[word] = list_words.count(word)
 
         return dic
         
         
     def freqOf(self,word):
         
-#         dic = {}
-#         list_words = self.fmtText.split()
-#         for word2 in set(list_words):
-#             dic[word2] = list_words.count(word2)
-# #         print(dic)
-#         freq = dic[word]
-#         return freq
+        list_words = self.fmtText.split()
 
-#         freq = self.fmtText.split().count(word)
-
-        freq = self.list_words.count(word)
-#       add a comment version 2 - test    
+        freq = list_words.count(word)
+        
         return freq
         
             
