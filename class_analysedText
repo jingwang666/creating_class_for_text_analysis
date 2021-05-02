@@ -33,8 +33,7 @@ class analysedText(object):
 #         freq = self.fmtText.split().count(word)
 
         freq = self.list_words.count(word)
-    
+#       add a comment version 2 - test    
         return freq
         
-        
-        
+            
