@@ -1,9 +1,6 @@
-# exercise_creating_class_text_analysis
-Exercise of Coursera - Creating a class to analyze a text (Courera exerciese)
+# Exerciese - Creating a class to analyze a text (Coursera exercise)
 
-
-
-Tasks: Create a class to achieve the below functions.
+Goal: Create a class to achieve the below functions.
 
 If a text is given - 
 
