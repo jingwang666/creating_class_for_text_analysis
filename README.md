@@ -1,4 +1,4 @@
-# Exerciese - Creating a class to analyze a text (Coursera exercise)
+# Creating a class to analyze a text 
 
 Goal: Create a class to achieve the below functions.
 
